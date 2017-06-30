@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Simple Quiz</h1>
+            <div class="results">
+                You Scored <span>5</span> / 5
+            </div>
+        </div>
+        <div class="clear-fix"></div>
+        <form action="#" onsubmit="return handleForm(event)" name="quiz">
+
+            <label for="q1">What country has the second largest population in the world?</label><br>
+            <input type="radio" name="q1" value="a" id="q1a"> India<br>
+            <input type="radio" name="q1" value="b" id="q1b"> Canada<br>
+            <input type="radio" name="q1" value="c" id="q1c"> China<br>
+
+            <br>
+
+            <label for="q1">What is the capital of Italy?</label><br>
+            <input type="radio" name="q2" value="a" id="q2a"> Milan<br>
+            <input type="radio" name="q2" value="b" id="q2b"> Sicily<br>
+            <input type="radio" name="q2" value="c" id="q2c"> Rome<br>
+
+            <br>
+
+            <label for="q1">What is the currency of Sweden</label><br>
+            <input type="radio" name="q3" value="a" id="q3a"> Dollars<br>
+            <input type="radio" name="q3" value="b" id="q3b"> Krona<br>
+            <input type="radio" name="q3" value="c" id="q3c"> Ruppes<br>
+
+            <br>
+
+            <label for="q1">Which is the largest country in the world in terms of the land area?</label><br>
+            <input type="radio" name="q4" value="a" id="q4a"> Antartica<br>
+            <input type="radio" name="q4" value="b" id="q4b"> Russia<br>
+            <input type="radio" name="q4" value="c" id="q4c"> Maldives<br>
+
+            <br>
+
+            <label for="q1">What is the capital of Canada?</label><br>
+            <input type="radio" name="q5" value="a" id="q5a"> Ontario<br>
+            <input type="radio" name="q5" value="b" id="q5b"> Toronto<br>
+            <input type="radio" name="q5" value="c" id="q5c"> Ottawa<br>
+
+            <button type="submit" class="submit-Btn">Submit</button>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
