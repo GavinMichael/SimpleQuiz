@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+.results {
+    margin-top: 20px;
+    display: none;
+    background: #afe0ff;
+    padding: 10px;
+}
+
+form {
+    display: inline-block;
+}
+
+form label{
+    padding-bottom: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+input[type="radio"] {
+    height: 15px;
+    width: 15px;
+}
+
+.submit-Btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    background: #9c27b0;
+    border: none;
+    color: white;
+    transition: all 200ms ease-in-out;
+    box-shadow: -2px 2px 7px 0px #808080;
+    cursor: pointer;
+}
+
+.submit-Btn:hover {
+    box-shadow: none;
+}
